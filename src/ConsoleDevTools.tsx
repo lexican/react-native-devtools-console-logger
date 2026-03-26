@@ -18,10 +18,9 @@ import { ConsoleUI } from "./ConsoleUI";
 export function ConsoleDevTools() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Debug: Log when component renders
-  console.log("ConsoleDevTools component rendered");
-
   useEffect(() => {
+    // Debug: Log when component mounts (not during render)
+    console.log("ConsoleDevTools component mounted");
     console.log("ConsoleDevTools useEffect starting...");
     
     // Start console logging when component mounts

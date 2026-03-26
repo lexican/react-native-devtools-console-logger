@@ -1,6 +1,6 @@
 {
   "name": "devtools-console-logger",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A React Native console logger for capturing and displaying console logs in dev tools",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
