@@ -34,10 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/devtools-console-logger"
+    "url": "https://github.com/lexican/react-native-devtools-console-logger"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/devtools-console-logger/issues"
+    "url": "https://github.com/lexican/react-native-devtools-console-logger/issues"
   },
-  "homepage": "https://github.com/yourusername/devtools-console-logger#readme"
+  "homepage": "https://github.com/lexican/react-native-devtools-console-logger#readme"
 }
