@@ -30,7 +30,7 @@ yarn add devtools-console-logger
 ### Basic Setup
 
 ```tsx
-import { ConsoleLogger, ConsoleUI } from 'devtools-console-logger';
+import { ConsoleLogger, ConsoleDevTools } from 'devtools-console-logger';
 import React, { useEffect } from 'react';
 import { View } from 'react-native';
 
@@ -50,7 +50,7 @@ function App() {
       {/* Your app content */}
       
       {/* Console UI - typically shown in dev mode only */}
-      {__DEV__ && <ConsoleUI />}
+      {__DEV__ && <ConsoleDevTools />}
     </View>
   );
 }
@@ -141,7 +141,7 @@ interface LogEntry {
 }
 ```
 
-### ConsoleUI
+### ConsoleDevTools
 
 A pre-built React Native component that displays captured logs with:
 - Filter buttons for each log level
@@ -157,7 +157,7 @@ A pre-built React Native component that displays captured logs with:
 ### Development Mode Only
 
 ```tsx
-import { ConsoleLogger, ConsoleUI } from 'devtools-console-logger';
+import { ConsoleLogger, ConsoleDevTools } from 'devtools-console-logger';
 
 export default function App() {
   useEffect(() => {
@@ -170,7 +170,7 @@ export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <YourMainApp />
-      {__DEV__ && <ConsoleUI />}
+      {__DEV__ && <ConsoleDevTools />}
     </SafeAreaView>
   );
 }
