@@ -1,0 +1,22 @@
+# Source files (only include dist/)
+src/
+tsconfig.json
+
+# Development files
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Config
+.github/
+.vscode/
+.idea/
+
+# Docs (keep README)
+docs/
+examples/
+
+# Misc
+*.log
+.DS_Store
