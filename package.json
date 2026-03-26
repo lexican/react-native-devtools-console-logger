@@ -1,0 +1,43 @@
+{
+  "name": "devtools-console-logger",
+  "version": "1.0.0",
+  "description": "A React Native console logger for capturing and displaying console logs in dev tools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react-native",
+    "console",
+    "logger",
+    "devtools",
+    "debugging",
+    "logging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-native": ">=0.71",
+    "@types/react": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/devtools-console-logger"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/devtools-console-logger/issues"
+  },
+  "homepage": "https://github.com/yourusername/devtools-console-logger#readme"
+}
